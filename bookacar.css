@@ -1,0 +1,152 @@
+/* .adminhome{
+    color:#23c223;
+    position: fixed;
+    text-align: center;
+    top: 7px;
+    left: 35%;
+    right: auto;
+    font-size: 50px;
+    background-color: aqua;
+    width: 100%;
+} */
+.lists{
+    
+    border-radius: 10px;
+    top: 10%;
+    background-color: rgb(29, 29, 29);
+    color: greenyellow;
+    float: left;
+    width: 90%;
+    height: auto;
+    font-size: 20px;    
+    padding: 10px 30px;
+    margin-top: 80px;
+    margin-left: 50px;
+    display: block;
+}
+
+.single{
+    background-color: rgb(19, 19, 19); 
+    padding: 10px 10px;
+    margin: 10px 10px;
+    border-radius: 10px;
+} 
+
+h2{
+    /* margin-top: 5px; */
+    color: white;
+}
+hr{
+    color: yellow;
+}
+
+.bookacar{
+    top: -35px;
+    position: fixed;
+    float: right;
+    left: 65%;
+}
+
+.carimg{
+    border-radius: 15px;
+    display: inline-block;
+    position: relative;
+    top: 30px;
+}
+
+.carimg:hover{
+    width: auto;
+    height: 150px;
+    border-radius: 15px;
+    display: inline-block;
+    top: 100px;
+}
+
+.bookbtn{
+    background-color: rgb(168, 0, 0);
+    padding: 10px 30px;
+    margin: 10px 30px;
+    color: white;
+    border-radius: 10px;
+    border: 1px solid white;
+}
+
+.bookbtn:hover{
+    background-color: rgb(101, 189, 0);
+    padding: 10px 30px;
+    margin: 10px 30px;
+    color: white;
+    border-radius: 10px;
+    border: 1px solid white;
+}
+
+.listss{
+    /* position: fixed; */
+    border-radius: 10px;
+    top: 50%; 
+    background-color: rgb(29, 29, 29);
+    color: greenyellow;
+    float: left;
+    width: auto;
+    height: auto;
+    font-size: 20px;    
+    padding: 10px 30px;
+    margin: 10px 30px;
+    display: flex;
+}
+
+
+.button1{
+    position: absolute;
+    top: 11.5%;
+    left: 75%;
+    transform: translate(-50%,-50%);
+}
+
+.btn1{
+    margin-left: 10px;
+    border: 1px solid white;
+    padding: 10px 30px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.btn1:hover{
+    color: black;
+    background-color: white;
+}
+
+.active{
+    color: black;
+    background-color: white;
+}
+
+
+.sorting2{
+    font-size: 20px;
+}
+
+.button2{
+    position: absolute;
+    top: 11.5%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.btn2{
+    margin-left: 10px;
+    border: 1px solid white;
+    padding: 10px 30px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.btn2:hover{
+    color: black;
+    background-color: white;
+}
+
+.active2{
+    color: black;
+    background-color: white;
+}

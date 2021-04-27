@@ -1,0 +1,128 @@
+*{  
+    margin:0;
+    padding:0;
+}
+/* .adminhome{
+    color:#23c223;
+    position: fixed;
+    text-align: center;
+    top: 7px;
+    left: 35%;
+    padding-left: 50%;
+    right: auto;
+    font-size: 50px;
+    background-color: aqua;
+    width: 100%;
+} */
+
+.mainpage{
+    height: 100%;
+    background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0)) ,url(bg2.jpg);
+    /* background-repeat: repeat-y; */
+    background-position: center;
+    background-size: cover;
+}
+.navbar{
+    padding-left: 20px;
+    padding-right: 20px;        
+    
+    z-index: 10;
+    position: fixed;
+    float: left;
+    height: 60px;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.15),rgba(0, 0, 0, 0.15));
+}
+ul{
+    list-style: none;
+    float: left;
+    margin-top: 25px;
+    margin-right: 20px;
+}
+
+ul li{
+    display: inline-block;
+}
+
+ul li a{ 
+   text-decoration: none;
+   color: #fff;
+   padding: 5px 20px;
+   border: 1px solid transparent;
+   font-size: 15px;
+
+}
+
+ul li a:hover{
+    color: black;
+    background-color: white;
+}
+
+ul li.active a{
+    color: black;
+    background-color: white;
+}
+
+.profile{
+   padding-right: 50px;
+    padding-left: 50px;
+    padding-top: 80px;
+}
+
+.navbar2{
+    float: right;
+    z-index: 20;
+    position: fixed;
+    margin-top: 0;
+    margin-bottom: 10px;
+    height: 60px;
+    width: 50%;
+    left: 50%;
+   
+}
+
+.nav{
+    float :right
+    
+}
+.nav li{
+    margin-top: 0;
+    display: inline-block;
+    color: white;
+    margin-bottom: -100px;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    font-size: 15px;
+}
+
+.nav li a{
+    margin-left: 60px;
+    background-color: rgb(128, 0, 0);
+}
+
+.nav li a:hover{
+    background-color: rgb(255, 0, 0);
+    color: white;
+}
+
+.profilename{
+    display: inline-block;
+    color: rgb(0, 217, 255);
+}
+.image{
+    position: fixed;
+    top: 5px;
+    left: 90%;
+}
+.reference{
+    margin-top: 0;
+    text-decoration: none;
+    color: black;
+    padding: 50px 0px;
+    border: 1px solid transparent;
+    font-size: 15px;
+    color: black;
+    background-color: rgb(0, 167, 36);
+}
+
+

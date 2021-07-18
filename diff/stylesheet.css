@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.body{
+    overflow:hidden;
+}
+.navbar{
+    position: fixed;
+    float: right;
+    height: 60px;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.15),rgba(0, 0, 0, 0.15));
+}
+ul{
+    list-style: none;
+    float: right;
+    margin-top: 25px;
+    margin-right: 20px;
+}
+
+ul li{
+    display: inline-block;
+}
+
+ul li a{ 
+   text-decoration: none;
+   color: #fff;
+   padding: 5px 20px;
+   border: 1px solid transparent;
+   font-size: 18px;
+
+}
+
+ul li a:hover{
+    color: black;
+    background-color: white;
+}
+
+.logo{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.logo img{
+    width: 600px;
+}
+
+.button1{
+    position: absolute;
+    top: 54%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.btn1{
+    margin-left: 10px;
+    border: 1px solid white;
+    padding: 10px 30px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.btn1:hover{
+    color: black;
+    background-color: white;
+}
+
+.first{
+ 
+    height: 100%;
+    background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0)) ,url(bg2.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.title{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    
+}
+
+.title h1{
+    font-size: 100px;
+    color: #fff;
+}
+
+.second{
+    height: 100%;
+    /* background-color: rgb(226, 240, 37); */
+    background-image:linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1)) ,url(bg2.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.secondleft{
+    position: absolute;
+    width: 45%;
+    height: 90%;
+    
+    /* background-color: red; */
+    margin-top: 60px;
+    margin-left: 50px;
+}
+
+.secondright{
+    padding-top: 140px;
+    position: absolute;
+    left: 50%;
+    width: 45%;
+    height: 90%;
+    /* background-color: red; */
+    margin-top: 60px;
+    margin-left: 50px;
+}
+
+.third{
+    height: 100%;
+    /* background-color: rgb(160, 47, 32); */
+    background-image:linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1)) ,url(bg2.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.thirdleft{
+    position: center;
+    width: 45%;
+    height: 90%;
+    display: inline-block;
+    /* background-color: red; */
+    margin-top: 60px;
+    margin-left: 50px;
+}
+
+.thirdright{
+    position: center;
+    display: inline-block;
+    width: 45%;
+    height: 90%;
+    /* background-color: red; */
+    margin-left: 50px;
+}
+
+.endbar{
+    height: 20%;
+}
+
+.container {
+   scroll-snap-type: y mandatory;
+   scroll-behavior: smooth;
+   height: 100%;
+}
+
+.child{
+    scroll-snap-align: start;
+ 
+}
+
+
